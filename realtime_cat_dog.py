@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import load_model
 
 model = load_model(
-    r"D:\python\Aiml\projects\catanddog_CNN\cat_dog_cnn.h5"
+    r"D:\python\Aiml\projects\catanddog_CNN\Cat_Vs_Dog_CNNmodel\cat_dog_cnn.h5"
 )
 
 img_size = (120, 120) 
